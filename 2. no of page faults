@@ -54,3 +54,11 @@ int main() {
 
     return 0;
 }
+output : 
+Incoming         Frame 1         Frame 2         Frame 3
+4                        4                       -                       -
+1                        4                       1                       -
+2                        4                       1                       2
+4                        4                       1                       2
+5                        5                       1                       2
+Total Page Faults:      4
