@@ -57,3 +57,6 @@ int main()
     printf("Avg. waiting time= %f\n",awt);
     printf("Avg. turnaround time= %f",att);
 }
+Output : 
+Average Waiting Time: 2.67
+Average Turnaround Time: 7.33
