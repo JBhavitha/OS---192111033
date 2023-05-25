@@ -28,6 +28,7 @@ void allocate_process(int process_size) {
     printf("Unable to allocate %d KB to any partition.\n", process_size);
 }
 
+
 int main() {
     int i;
     printf("Initial ");
@@ -39,3 +40,11 @@ int main() {
 
     return 0;
 }
+Output : 
+Process No.     Process Size    Block no.
+ 1                      115                             1
+ 2                      500                             2
+ 3                      358                             5
+ 4                      200                             3
+ 5                      375                             5
+ main
