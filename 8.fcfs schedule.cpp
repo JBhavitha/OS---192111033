@@ -35,3 +35,12 @@ int main()
 
     return 0;
 }
+Output : 
+Enter the number of disk requests: 5
+Enter the disk requests: 55
+58
+60
+70
+18
+Total head movement: 122
+Average head movement: 24.40
