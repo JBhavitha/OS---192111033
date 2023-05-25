@@ -35,3 +35,27 @@ int main()
   }
   return 0;
 }
+OUTPUT:
+Enter the number of process and resources5
+3
+enter allocation of resource of all process 5x3 matrix
+1 1 2
+2 1 2
+3 0 1
+0 2 0
+1 1 2
+enter the max resource process required 5x3 matrix
+5 4 4
+4 3 3
+9 1 3
+8 6 4
+2 2 3
+enter the  available resource
+3 2 1
+
+ need resources matrix are
+4       3       2
+2       2       1
+6       1       2
+8       4       4
+1       1       1
