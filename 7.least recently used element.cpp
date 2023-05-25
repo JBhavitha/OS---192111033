@@ -33,4 +33,54 @@ int main()
     printf("Page Fault Is %d",count);
     return 0;
 }
+Output : 
+
+ ENTER THE NUMBER OF PAGES:
+20
+
+ ENTER THE PAGE NUMBER :
+1
+2
+3
+2
+1
+5
+2
+1
+6
+2
+5
+6
+3
+1
+3
+6
+1
+2
+4
+3
+
+ ENTER THE NUMBER OF FRAMES :3
+        ref string       page frames
+1               1       -1      -1
+2               1       2       -1
+3               1       2       3
+2
+1
+5               5       2       3
+2
+1               5       1       3
+6               5       1       6
+2               2       1       6
+5               2       5       6
+6
+3               2       5       3
+1               1       5       3
+3
+6               1       6       3
+1
+2               1       6       2
+4               4       6       2
+3               4       3       2
+Page Fault Is 14
 
