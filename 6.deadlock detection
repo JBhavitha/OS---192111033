@@ -82,3 +82,7 @@ int main()
     deadlock_detection();
     return 0;
 }
+output :
+Output : 
+The system is in deadlock state
+The deadlocked processes are: 0 1 2
