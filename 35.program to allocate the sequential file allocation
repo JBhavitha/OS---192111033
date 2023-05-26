@@ -61,3 +61,6 @@ int main()
     }
 	return 0;
 }
+Output : 
+Enter file size (in KB): 16
+File allocated from block 8 to 15
