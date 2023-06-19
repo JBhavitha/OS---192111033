@@ -32,5 +32,7 @@ int main()
   sem_destroy(&semaphore); 
   return 0;
 }
-
+Output : 
+Double of the data: 20
+Five times of the data: 50
 
