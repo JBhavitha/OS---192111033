@@ -23,3 +23,20 @@ int main()
     printf("\n");
     printf("total head movement = %d\n",mov);
 }
+Output : 
+enter the current position
+45
+enter the number of requests
+9
+enter the request order
+55
+58
+60
+70
+18
+90
+150
+160
+184
+45 -> 55 -> 58 -> 60 -> 70 -> 18 -> 90 -> 150 -> 160 -> 184
+total head movement = 243
