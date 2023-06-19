@@ -35,3 +35,11 @@ int main()
         printf("\n%s",fname[i]);
         getch();
 }
+Output : 
+Enter the directory name:CSE
+Enter the number of files:3
+Enter file name to be created:SSE
+Do you want to enter another file(yes - 1 or no - 0):0
+Directory name is:CSE
+Files names are:
+SSE
