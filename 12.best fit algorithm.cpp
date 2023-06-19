@@ -43,5 +43,11 @@ int main()
     bestFit(blockSize, NUM_BLOCKS, processSize, NUM_PROCESSES);
     return 0;
 }
-
+output : 
+Process No.     Process Size    Block no.
+1               115             6
+2               500             2
+3               358             5
+4               200             4
+5               375             5
 
