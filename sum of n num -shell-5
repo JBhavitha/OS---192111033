@@ -1,0 +1,50 @@
+shell script to find sum of n numbers
+
+echo "Enter Size(N)"
+read N
+
+i=1
+sum=0
+
+echo "Enter Numbers"
+while [ $i -le $N ]
+do
+  read num           #get number
+  sum=$((sum + num)) #sum+=num
+  i=$((i + 1))
+done
+
+echo $sum
+OUTPUT:
+Enter Size(N)
+
+5
+
+Enter Numbers
+
+1
+
+2
+
+3
+
+4
+
+5
+
+15
+
+
+Enter Size(N)
+
+3
+
+Enter Numbers
+
+10
+
+20
+
+30
+
+60
